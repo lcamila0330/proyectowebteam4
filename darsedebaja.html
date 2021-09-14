@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darse de baja</title>
+    <style>
+        body{
+            width: 80%;
+            margin: 12em;
+
+        }
+         header{
+             background:rgb(152, 186, 196);
+             color:rgb(35, 35, 39);
+             align-content: center;
+             height:3em;
+
+         }
+         nav{
+             background: rgba(170, 154, 154, 0.432);
+             height:12em;
+
+         }
+         section{
+             background: rgb(240, 230, 230);
+             height:21em;
+         }
+         footer{
+             background: rgb(165, 207, 233);
+             color:rgb(0, 0, 0);
+             height:15em;
+
+         }
+         aside{
+             background: rgb(125, 192, 189);
+             color: rgb(0, 0, 0);
+             height:12em;
+
+         }
+         #articulo1{/* 
+             background: rgb(241, 238, 238); */
+             color:rgb(15, 15, 15);
+             /* font-size: x-large; */
+         }
+         .articulov{
+             /* font-family: 'Courier New', Courier, monospace; */
+             font-size: 27px;
+             background: rgb(255, 255, 255);
+         }
+    </style>
+
+</head>
+<body>
+    
+    <a name="arriba"></a>
+    <header> <center><h1>Darse de baja del sitio</h1></center>
+</header>
+
+<!-- EMPIEZA EL NAV -->
+    <nav> <center><p>Seleccione las opciones para configurar su peticion:</p></center>
+<hr>
+<form action="../archivo.php" target="_blank">
+    <p> <fieldset>
+    <legend>Seleccione Preferencias</legend>
+       <center>
+        <label><input type="checkbox" name="peliculas">Borrar Reservas hechas</label>
+        <label><input type="checkbox" name="deportes">Borrar datos personales</label>
+        <label><input type="checkbox" name="deportes">Eliminar cuenta de usuario</label>
+        <label><input type="checkbox" name="deportes">No recibir notificaciones al correo</label>
+    </center>
+    </p>
+    <input type="submit" value="Enviar">
+</fieldset>
+</form>
+
+<!-- TERMINAN LOS DESPLEGABLES -->
+<!-- <center>
+<div>   
+   <!--  Busqueda por Codigo<input type="text" placeholder="Buscar"> 
+<div>
+</center> -->
+
+</nav>
+    <section>
+         <a href="#abajo">Ir al pie de pagina</a>
+
+        <article id="articulo1"><center>
+            <form action="../archivo.php" target="_blank">
+                <p> Nombre de usuario:  <input type="text" name="nombreUsuarioBaja"></p>
+                <p> Clave de usuario:  <input type="text" name="clavedeUsuario"></p>
+                <p>Motivo de la baja: <br></p>
+                <textarea name="mensaje" style="width:500px; height:100px"> </textarea>
+                <p>
+                    <input type="submit" value="Enviar Informacion">
+                </p>
+            </form>
+    </center>
+    <!-- TERMINA LA TABLA -->
+        </article>
+         <!-- termina el articulo 1 -->
+
+        <article id="articulo2"><!-- articulo -->
+        </article>
+
+        <article id="articulo3"><!-- Articulo3 --></article>
+        
+        <br>
+    </section>
+    <aside>
+        <center>
+         <p> Informacion adicional: </p>
+         <form action="../archivo.php" target="_blank">
+            <textarea name="mensaje" style="width:500px; height:100px"> </textarea>
+            <p>
+                <input type="submit" value="Enviar Informacion">
+          
+            </p>
+        </form>
+    </center>
+
+
+         <a href="https://www.google.com" target="_blank"> <!-- vinculo --></a>
+         <a href="../subsitio/registro.html#abajo"> <!-- vinculo2 --></a>
+         
+    </aside>
+    <footer>
+        <p>esta pagina fue realizada por: TEAM 4 </p>
+        <a href="../subsitio/registro.html#abajo"> IR A LOGUIN </a> <br>
+        <a href="../subsitio/registro.html#abajo"> IR A REGISTRO </a> <br>
+        <a href="../subsitio/registro.html#abajo"> IR A RESERVAR </a> <br>
+        <a href="../subsitio/registro.html#abajo"> IR A VER HISTORIAL </a> <br>
+        <a href="../subsitio/registro.html#abajo"> IR A ACTUALIZAR DATOS </a> <br>
+        <a href="../subsitio/registro.html#abajo"> IR A BUSCAR HABITACIONES </a> <br>
+        <a href="../subsitio/registro.html#abajo"> IR A darse de baja </a> <br><br>
+        <a name="abajo"></a>
+        <a href="#arriba">IR ARRIBA</a>
+    </footer>
+
+
+</body>
+</html>

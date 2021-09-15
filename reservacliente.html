@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<title>HTML Tutorial</title>
+
+<head>
+<style>
+.myDiv {
+  border: 1px outset red;
+  background-color: lightblue;    
+  text-align: center;
+}
+.myDiv {
+  border: 1px outset red;
+  background-color: lightblue;    
+  text-align: center;
+}
+
+
+#content { 
+  overflow:auto; 
+  width: 1000px; 
+  background: lightblue ; 
+} 
+
+#left, #right { 
+  width: 40%; 
+  margin:5px; 
+  padding: 1em; 
+  background: lightblue; 
+} 
+
+#left  { float:left;  }
+#right { float:right; } 
+
+
+</style>
+</head>
+
+
+<body>
+<div class="myDiv">
+  <h2>Registro pasajeros </h2>
+  <p>Ingrese en los campos los datos de Registro</p>
+</div>
+
+<h1>Ingrese los valores a los campos establecidos</h1>
+
+<form  class="myDiv" >
+        
+        <div id="content" class=.myDiv>
+  
+              <div class="form-inline"  id="left">
+                <label for="nombre">Nombre   :</label>
+                <input type="text" id="nombre" name="nombre"><br><br>
+              </div>
+              
+
+  
+            <div class="form-inline"  id="right">
+                <label for="apellido">Apellido:</label>
+                 <input type="text" id="apellido" name="apellido"><br><br>
+        
+        </div>
+        <div id="content" class=.myDiv>
+  
+              <div class="form-inline"  id="left">
+                <label for="empresa">Empresa:</label>
+                <input type="text" id="empresa" name="empresa"><br><br>
+              </div>
+              
+
+  
+            <div class="form-inline"  id="right">
+                <label for="direccion ">Direccion:</label>
+                 <input type="text" id="direccion" name="direccion"><br><br>
+        
+        </div>
+        <div id="content" class=.myDiv>
+  
+              <div class="form-inline"  id="left">
+                <label for="ciudad">Ciudad:</label>
+                <input type="text" id="ciudad" name="ciudad"><br><br>
+              </div>
+              
+
+  
+            <div class="form-inline"  id="right">
+                <label for="codigoPostal">Codigo Postal:</label>
+                 <input type="text" id="codigoPostal" name="codigoPostal"><br><br>
+        
+        </div>
+        <div id="content" class=.myDiv>
+  
+              <div class="form-inline"  id="left">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email"><br><br>
+              </div>
+              
+
+  
+            <div class="form-inline"  id="right">
+                <label for="pais">Pais:</label>
+                 <input type="text" id="pais" name="pais"><br><br>
+        
+        </div>
+        <div id="content" class=.myDiv>
+  
+              <div class="form-inline"  id="left">
+                <label for="celular">Ciudad:</label>
+                <input type="text" id="celular" name="celular"><br><br>
+              </div>
+              
+
+  
+            <div class="form-inline"  id="right">
+                <label for="telefono">Telefono:</label>
+                 <input type="text" id="telefono" name="telefono"><br><br>
+        
+            </div>
+            <div class="form-inline"  id="left">
+                <label for="celular">Celular:</label>
+                 <input type="text" id="celular" name="celular"><br><br>
+        
+            </div>
+
+
+  
+</div>
+
+<input type="submit" value="Guardar">
+  
+</form>
+<hr>
+
+<div class="myDiv">
+  <h2>Responder a travez de: </h2>
+  <p>Seleccione la  respuesta</p>
+</div>
+<form action="/action_page.php" method="get">
+  <input type="checkbox" name="vehicle1" value="email">
+  <label for="email"> Email</label><br>
+  <input type="checkbox" name="vehicle2" value="telefono">
+  <label for="telefono"> Telefono</label><br>
+  <input type="checkbox" name="correo" value="correo" checked>
+  <label for="correo"> Correo</label><br><br>
+  <input type="submit" value="Respuesta">
+</form>
+
+<div class="myDiv">
+  <h2>condominio al cual quiere ingresar </h2>
+  <p>Seleccione calendario de reserva</p>
+</div>
+<form action="/action_page.php">
+        <label for="cars">Condominio seleccion:</label>
+        <select name="cars" id="cars">
+          <option value="cbogota">condominio bogota</option>
+          <option value="cmedellin">condominio medellin</option>
+          <option value="ccali">condominio cali</option>
+          <option value="cvillavicencio">condominio villavicencio</option>
+        </select>
+  <br><br>
+    <label for="fingreso">Fecha de ingreso:</label>
+    <input type="date" id="fingreso" name="fingreso">
+    <label for="fsalida">Fecha de salida:</label>
+    <input type="date" id="fsalida" name="fsalida">
+    
+
+
+
+
+  
+
+        
+        <div id="content" class=.myDiv>
+  
+              <div class="form-inline"  id="left">
+                <label for="nvisitantes">Numero de visitanes  :</label>
+                <input type="text" id="nvisitantes" name="nvisitantes"><br><br>
+              </div>
+              
+
+  
+            <div class="form-inline"  id="right">
+                <label for="nhabitaciones">Numero de habitaciones:</label>
+                 <input type="text" id="nhabitaciones" name="nhabitaciones"><br><br>
+        
+        </div>
+        <div id="content" class=.myDiv>
+  
+              <div class="form-inline"  id="left">
+                <label for="nnoches">numero de noches:</label>
+                <input type="text" id="nnoches" name="nnoches"><br><br>
+              </div>
+              
+
+  
+            <div class="form-inline"  id="comentarios">
+                <label for="comentarios">Comentarios y consultas:</label>
+
+              <textarea id="comentarios" name="comentarios" rows="4" cols="50">
+              Comentarios o consultas.
+              </textarea>
+          
+            <input type="submit" value="enviar">
+</form>
+
+
+<h1>ir al index  de la pagina </h1>
+<p>ir al index</p>
+<a href="../index.html">ir a index.html</a>
+<h1>ir al usuarios</h1>
+<p>ir al usuarios</p>
+<a href="usuarios.html">ir a usuarios.html</a>
+
+
+</body>
+
+<img src="../Imagen/imgRed.jpg" alt="imagenrdsdeg">
+
+
+<footer>
+  <p>marlen rodriguez creadora</p>
+  <p><a href="marlen rodriguez">marlenrodriguezg21@gmail.com</a></p>
+</footer>
+</html>

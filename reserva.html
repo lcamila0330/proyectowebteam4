@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<title>HTML Tutorial</title>
+
+<head>
+<style>
+.myDiv {
+  border: 1px outset red;
+  background-color: lightblue;    
+  text-align: center;
+}
+.myDiv {
+  border: 1px outset red;
+  background-color: lightblue;    
+  text-align: center;
+}
+
+
+
+
+#content { 
+  overflow:auto; 
+  width: 1000px; 
+  background: lightblue ; 
+} 
+
+#left, #right { 
+  width: 40%; 
+  margin:5px; 
+  padding: 1em; 
+  background: lightblue; 
+} 
+
+#left  { float:left;  }
+#right { float:right; } 
+
+
+</style>
+</head>
+
+
+
+<body>
+<div class="myDiv">
+  <h2>Reserva </h2>
+  <p>Ingrese en los campos los datos de Reserva</p>
+</div>
+
+<h1>Ingrese los valores a los campos establecidos</h1>
+
+
+<hr>
+
+<div class="myDiv">
+  <h2>Responder a travez de: </h2>
+  <p>Seleccione la  respuesta</p>
+</div>
+<form action="/action_page.php" method="get"  class="myDiv">
+  <input type="checkbox" name="vehicle1" value="email">
+  <label for="email"> Email</label><br>
+  <input type="checkbox" name="vehicle2" value="telefono">
+  <label for="telefono"> Telefono</label><br>
+  <input type="checkbox" name="correo" value="correo" checked>
+  <label for="correo"> Correo</label><br><br>
+  <input type="submit" value="Respuesta">
+</form>
+
+<div class="myDiv">
+  <h2>Reserva condominio al cual quiere ingresar </h2>
+  <p>Seleccione calendario de reserva</p>
+</div>
+<form action="/action_page.php" class="myDiv">
+        <label for="cars">Condominio seleccion:</label>
+        <select name="cars" id="cars">
+          <option value="cbogota">condominio bogota</option>
+          <option value="cmedellin">condominio medellin</option>
+          <option value="ccali">condominio cali</option>
+          <option value="cvillavicencio">condominio villavicencio</option>
+        </select>
+  <br><br>
+    <label for="fingreso">Fecha de ingreso:</label>
+    <input type="date" id="fingreso" name="fingreso">
+    <label for="fsalida">Fecha de salida:</label>
+    <input type="date" id="fsalida" name="fsalida">
+    
+
+       
+        <div id="content" class=.myDiv>
+  
+              <div class="form-inline"  id="left">
+                <label for="nvisitantes">Numero de visitanes  :</label>
+                <input type="text" id="nvisitantes" name="nvisitantes"><br><br>
+              </div>
+              
+
+  
+            <div class="form-inline"  id="right">
+                <label for="nhabitaciones">Numero de habitaciones:</label>
+                 <input type="text" id="nhabitaciones" name="nhabitaciones"><br><br>
+        
+        </div>
+        <div id="content" class=.myDiv>
+  
+              <div class="form-inline"  id="left">
+                <label for="nnoches">numero de noches:</label>
+                <input type="text" id="nnoches" name="nnoches"><br><br>
+              </div>
+              
+
+  
+            <div class="form-inline"  id="comentarios">
+                <label for="comentarios">Comentarios y consultas:</label>
+
+              <textarea id="comentarios" name="comentarios" rows="4" cols="50">
+              Comentarios o consultas.
+              </textarea>
+          
+            <input type="submit" value="enviar">
+</form>
+
+
+
+</body>
+
+<img src="../Imagen/imgRed.jpg" alt="imagenrdsdeg">
+
+
+<footer>
+        <p>esta pagina fue realizada por: TEAM 4 </p>
+        <a href="login.html" target="_blank"> IR A LOGUIN </a> <br>
+        <a href="registrarse.html" target="_blank"> IR A REGISTRO </a> <br>
+        <a href="../subsitio/registro.html" target="_blank"> IR A RESERVAR </a> <br>
+        <a href="reservacliente.html" target="_blank"> IR A RESERVAR  CLIENTE</a> <br>
+        <a href="../subsitio/registro.html" target="_blank"> IR A VER HISTORIAL </a> <br>
+        <a href="../subsitio/registro.html" target="_blank"> IR A ACTUALIZAR DATOS </a> <br>
+        <a href="busqueda-hotel-habitacion.html" target="_blank"> IR A BUSCAR HABITACIONES </a> <br>
+        <a href="darsedebaja.html" target="_blank"> IR A DARSE DE BAJA </a> <br><br>
+        <a name="abajo"></a>
+        <a href="#arriba">IR ARRIBA</a>
+    </footer>
+</html>
